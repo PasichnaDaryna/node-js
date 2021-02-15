@@ -1,12 +1,11 @@
-const fs = require('fs')
-
-
-const path = require('path')
+import fs from 'fs'
+import path from 'path'
 
 // Создай переменную contactsPath и запиши в нее путь к файле 
 // contacts.json.Для составления пути ипользуй методы модуля path.
+const { __dirname } = createDirname(import.meta.url);
 
-const contactsPath = path.basename('./db/contacts.json')
+const contactsPath = basename('./db/contacts.json')
 
 
 // Добавь функции для работы с коллекцией контактов.В функциях используй модуль
