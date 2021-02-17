@@ -25,6 +25,8 @@
   },
   "dependencies": {
     "commander": "^7.1.0",
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "shortid": "^2.2.16",
+    "yargs": "^16.2.0"
   }
 }
